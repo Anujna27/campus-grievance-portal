@@ -65,19 +65,9 @@ Additional tools may include JWT for authentication, a file-storage service for 
 
 ## 8. Draft Architectural Flow Diagram
 
-mermaid
-flowchart TD
-    A[Student / Staff] --> B[React Frontend]
-    B --> C[Submit Grievance]
-    C --> D[Node.js + Express Backend]
-    D --> E[(MongoDB Database)]
-    E --> D
-    D --> F[Assign to Department]
-    F --> G[Officer Reviews and Resolves]
-    G --> E
-    D --> H[Status and Notifications]
-    H --> B
-    B --> I[Admin Dashboard]
+![Grievance Management System Architecture](flow.svg)
+
+  
 
 
 ### Flow Explanation
